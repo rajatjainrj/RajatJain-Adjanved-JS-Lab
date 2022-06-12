@@ -1,0 +1,54 @@
+@font-face {
+    font-family: default-font;
+    src: url("Important.ttf");
+}
+
+body{
+    background-image: url("../img/rainy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(100,100,0,.5);
+    background-blend-mode: multiply;
+}
+
+#container{
+    margin: auto;
+    width: 50%;
+    padding: 80px 10px 10px;
+    text-align: center;
+    color: white;
+    font-family: default-font;
+}
+
+#city{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#date{
+    font-size: 40px;
+}
+
+#temp{
+    margin-top: 10px;
+    font-size: 120px;
+}
+
+#weather{
+    font-size: 45px;
+}
+
+#min-max-temp{
+    font-size: 35px;
+}
+
+#cityInput{
+    box-sizing:border-box;
+    padding: 10px;
+    border:0;
+    box-shadow:0 0 30px 10px rgba(0,0,0,0.5);
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+}
